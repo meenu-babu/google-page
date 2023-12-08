@@ -1,0 +1,100 @@
+*
+{
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.linkdiv
+{
+    display:flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.textdiv{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:10px;
+    padding: 10px;
+    font-size:medium;
+}
+.icondiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:10px;
+    padding: 8px;
+}
+
+.icondiv .labdiv
+{
+    font-size: 20px;
+   
+}
+.maildiv a{
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+    margin-top: 0px;
+    padding: 3px;
+    margin-right: 15px;
+}
+.textdiv a:hover
+{
+    text-decoration: underline;
+}
+.image-div a{
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+    margin-top: 0px;
+    padding: 3px; 
+} 
+.labdiv a
+{
+    color: rgb(102, 100, 100);
+    margin-right: 15px;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.ins-search
+{
+    display:flex;
+    justify-content: space-between;
+    width:600px;
+   position:relative;
+   bottom:80px;
+
+    
+}
+.searchdiv input{
+    padding-left: 80px;
+    font-size: 16px;
+    margin:50px;
+    width:600px;
+    height:40px;
+    border-style: none;
+    border-radius: 15px;
+    box-shadow:2px 2px 2px 2px rgba(104, 102, 102,0.3);;
+}
+.ins-search1 i
+{
+    color:rgb(143, 139, 139);
+   margin-left: 20px;
+}
+.ins-search2
+{
+    margin-right: 10px;
+}
